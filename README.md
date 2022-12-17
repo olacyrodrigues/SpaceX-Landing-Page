@@ -14,6 +14,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 [BootsTrap](https://icons.getbootstrap.com)
 
+[SASS](https://sass-lang.com)
+
 [AOS](https://michalsnik.github.io/aos/)
 
 ## 🎲 Rodando o projeto
