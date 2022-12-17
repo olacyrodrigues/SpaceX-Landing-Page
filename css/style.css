@@ -1,0 +1,381 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #000;
+  color: white;
+}
+
+nav {
+  color: white;
+}
+
+.footer {
+  margin: 3% auto 3% auto;
+  color: #555252;
+  text-align: center;
+}
+
+.footer i {
+  color: #fff;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container00 {
+  background-image: url(../assets/home/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.containerText {
+  padding-top: 300px;
+}
+
+.container02 {
+  background-image: url(../assets/home/03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container03 {
+  background-image: url(../assets/home/02.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container04 {
+  background-image: url(../assets/home/04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.arrowDown {
+  height: 50px;
+  margin-top: 200px;
+}
+
+@media (max-width: 1440px) {
+  .container00 .containerText {
+    padding: 190px;
+  }
+  .arrowDown {
+    margin: 20px;
+  }
+  .container02 .containerText {
+    padding: 200px;
+  }
+}
+@media (max-width: 425px) {
+  .container00 .containerText {
+    padding: 90px;
+  }
+  .container00 .arrowDown {
+    margin: 50px;
+  }
+}
+@media (max-width: 375px) {
+  .logo-obc {
+    width: 220px;
+  }
+}
+@media (max-width: 320px) {
+  .logo-obc {
+    width: 176px;
+  }
+  .container00 .containerText {
+    padding: 80px;
+  }
+  .arrowDown {
+    padding-top: 25px;
+  }
+  .footer {
+    margin: 20px;
+  }
+  .footer .copyOlacy {
+    font-size: 12px;
+  }
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container01 {
+  background-image: url(../assets/falcon9/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.titleFalcon9 {
+  padding-top: 25%;
+  font-size: 80px;
+}
+
+.falconDescription {
+  padding: 3%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.falconDescriptionNumbers {
+  display: flex;
+  font-size: 90px;
+  justify-content: center;
+}
+
+.falconDescriptiondata {
+  font-size: 20px;
+}
+
+.container06 {
+  background-image: url(../assets/falcon9/02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.rocketContainer {
+  align-items: center;
+  padding: 400px 500px 0px 20px;
+}
+
+.carouselImg {
+  width: auto;
+  height: 1000px;
+}
+
+.container06-1 {
+  background-image: url(../assets/falcon9/08.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.merlinContainer {
+  align-items: center;
+  padding: 240px 800px 0px 20px;
+}
+.merlinContainer #widthTable {
+  color: #fff;
+}
+
+.carrossel01 {
+  background-image: url(../assets/falcon9/03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.falcon9Container {
+  align-items: center;
+  padding: 240px 800px 0px 300px;
+}
+.falcon9Container #widthTable {
+  color: #fff;
+}
+
+.carrossel02 {
+  background-image: url(../assets/falcon9/04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.carrossel03 {
+  background-image: url(../assets/falcon9/05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.carrossel04 {
+  background-image: url(../assets/falcon9/06.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.carrossel05 {
+  background-image: url(../assets/falcon9/07.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+@media (max-width: 1024px) {
+  .merlinContainer {
+    padding: 140px 600px 0px 20px;
+  }
+  .falcon9Container {
+    padding: 140px 200px 0px 100px;
+  }
+  .falconDescriptiondata {
+    padding: 30px auto auto 100px;
+  }
+}
+@media (max-width: 768px) {
+  .merlinContainer {
+    padding: 180px 10px 0px 20px;
+  }
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container07 {
+  background-image: url(../assets/humanFlight/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.titleHumanPage {
+  font-size: 120px;
+  padding-top: 290px;
+}
+
+.subTitleHumanPage {
+  font-size: 30px;
+}
+
+.arrowDownHumanPage {
+  margin: 12%;
+  width: 150px;
+  height: auto;
+}
+
+.earthDescription {
+  padding: 2% 33%;
+  color: #555252;
+}
+.earthDescription a {
+  color: #fff;
+}
+
+.container08 {
+  background-image: url(../assets/humanFlight/02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.earthText {
+  padding-top: 20%;
+  padding-left: 39%;
+}
+.earthText #earthTitleContainer {
+  font-size: 14px;
+}
+.earthText .earthContainerDescription {
+  font-size: 64px;
+}
+
+#buttonHuman {
+  padding: 20px 40px;
+}
+
+.container09 {
+  background-image: url(../assets/humanFlight/03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.satelliteText {
+  padding-top: 20%;
+}
+.satelliteText #satelliteTitleContainer {
+  font-size: 14px;
+}
+.satelliteText .satelliteContainerDescription {
+  font-size: 64px;
+}
+
+.container10 {
+  background-image: url(../assets/humanFlight/04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.moonText {
+  padding-top: 20%;
+  padding-left: 40%;
+}
+.moonText #moonTitleContainer {
+  font-size: 14px;
+}
+.moonText .moonContainerDescription {
+  font-size: 64px;
+}
+
+.container11 {
+  background-image: url(../assets/humanFlight/05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.downloadContainer {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.downloadContainer span {
+  color: #fff;
+}
+.downloadContainer a {
+  color: #555252;
+}
+
+@media (max-width: 1440px) {
+  .titleHumanPage {
+    font-size: 120px;
+    padding-top: 190px;
+  }
+  .subTitleHumanPage {
+    font-size: 30px;
+  }
+  .arrowDownHumanPage {
+    margin: 3%;
+    width: 150px;
+    height: auto;
+  }
+  .earthText {
+    padding-left: 50%;
+  }
+  .moonText {
+    padding-left: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .titleHumanPage {
+    font-size: 90px;
+    padding-top: 190px;
+  }
+  .subTitleHumanPage {
+    font-size: 20px;
+  }
+  .arrowDownHumanPage {
+    margin: 3%;
+    width: 150px;
+    height: auto;
+  }
+  .earthDescription {
+    padding: 2% 8%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

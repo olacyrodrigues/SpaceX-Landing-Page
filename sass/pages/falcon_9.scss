@@ -1,0 +1,124 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container01 {
+  background-image: url(../../assets/falcon9/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.titleFalcon9 {
+  padding-top: 25%;
+  font-size: 80px;
+}
+.falconDescription {
+  padding: 3%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.falconDescriptionNumbers {
+  display: flex;
+  font-size: 90px;
+  justify-content: center;
+}
+
+.falconDescriptiondata {
+  font-size: 20px;
+}
+
+.container06 {
+  background-image: url(../../assets/falcon9/02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.rocketContainer {
+  align-items: center;
+  padding: 400px 500px 0px 20px;
+}
+
+.carouselImg {
+  width: auto;
+  height: 1000px;
+}
+
+.container06-1 {
+  background-image: url(../../assets/falcon9/08.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.merlinContainer {
+  align-items: center;
+  padding: 240px 800px 0px 20px;
+
+  #widthTable {
+    color: $table-color;
+  }
+}
+
+.carrossel01 {
+  background-image: url(../../assets/falcon9/03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.falcon9Container {
+  align-items: center;
+  padding: 240px 800px 0px 300px;
+
+  #widthTable {
+    color: $table-color;
+  }
+}
+
+.carrossel02 {
+  background-image: url(../../assets/falcon9/04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.carrossel03 {
+  background-image: url(../../assets/falcon9/05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.carrossel04 {
+  background-image: url(../../assets/falcon9/06.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.carrossel05 {
+  background-image: url(../../assets/falcon9/07.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+@media (max-width: 1024px) {
+  .merlinContainer {
+    padding: 140px 600px 0px 20px;
+  }
+  .falcon9Container {
+    padding: 140px 200px 0px 100px;
+  }
+  .falconDescriptiondata {
+    padding: 30px auto auto 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .merlinContainer {
+    padding: 180px 10px 0px 20px;
+  }
+}

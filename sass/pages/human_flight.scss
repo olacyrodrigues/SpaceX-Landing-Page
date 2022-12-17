@@ -1,0 +1,160 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container07 {
+  background-image: url(../../assets/humanFlight/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.titleHumanPage {
+  font-size: 120px;
+  padding-top: 290px;
+}
+
+.subTitleHumanPage {
+  font-size: 30px;
+}
+
+.arrowDownHumanPage {
+  margin: 12%;
+  width: 150px;
+  height: auto;
+}
+
+.earthDescription {
+  padding: 2% 33%;
+  color: $description-text;
+
+  a {
+    color: $email-color;
+  }
+}
+
+.container08 {
+  background-image: url(../../assets/humanFlight/02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.earthText {
+  padding-top: 20%;
+  padding-left: 39%;
+
+  #earthTitleContainer {
+    font-size: 14px;
+  }
+
+  .earthContainerDescription {
+    font-size: 64px;
+  }
+}
+
+#buttonHuman {
+  padding: 20px 40px;
+}
+
+.container09 {
+  background-image: url(../../assets/humanFlight/03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.satelliteText {
+  padding-top: 20%;
+
+  #satelliteTitleContainer {
+    font-size: 14px;
+  }
+
+  .satelliteContainerDescription {
+    font-size: 64px;
+  }
+}
+
+.container10 {
+  background-image: url(../../assets/humanFlight/04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.moonText {
+  padding-top: 20%;
+  padding-left: 40%;
+
+  #moonTitleContainer {
+    font-size: 14px;
+  }
+
+  .moonContainerDescription {
+    font-size: 64px;
+  }
+}
+
+.container11 {
+  background-image: url(../../assets/humanFlight/05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.downloadContainer {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  span {
+    color: $download-color;
+  }
+  a {
+    color: $description-text;
+  }
+}
+
+@media (max-width: 1440px) {
+  .titleHumanPage {
+    font-size: 120px;
+    padding-top: 190px;
+  }
+
+  .subTitleHumanPage {
+    font-size: 30px;
+  }
+
+  .arrowDownHumanPage {
+    margin: 3%;
+    width: 150px;
+    height: auto;
+  }
+
+  .earthText {
+    padding-left: 50%;
+  }
+  .moonText {
+    padding-left: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .titleHumanPage {
+    font-size: 90px;
+    padding-top: 190px;
+  }
+
+  .subTitleHumanPage {
+    font-size: 20px;
+  }
+
+  .arrowDownHumanPage {
+    margin: 3%;
+    width: 150px;
+    height: auto;
+  }
+  .earthDescription {
+    padding: 2% 8%;
+  }
+}

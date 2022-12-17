@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: $background-color;
+  color: white;
+}
+
+nav {
+  color: white;
+}
+
+.footer {
+  margin: 3% auto 3% auto;
+  color: $description-text;
+  text-align: center;
+}
+
+.footer i {
+  color: $footer-icons;
+}

@@ -1,0 +1,91 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container00 {
+  background-image: url(../../assets/home/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.containerText {
+  padding-top: 300px;
+}
+
+.container02 {
+  background-image: url(../../assets/home/03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container03 {
+  background-image: url(../../assets/home/02.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container04 {
+  background-image: url(../../assets/home/04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.arrowDown {
+  height: 50px;
+  margin-top: 200px;
+}
+
+@media (max-width: 1440px) {
+  .container00 {
+    .containerText {
+      padding: 190px;
+    }
+  }
+  .arrowDown {
+    margin: 20px;
+  }
+  .container02 {
+    .containerText {
+      padding: 200px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .container00 {
+    .containerText {
+      padding: 90px;
+    }
+    .arrowDown {
+      margin: 50px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .logo-obc {
+    width: 220px;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo-obc {
+    width: 176px;
+  }
+  .container00 {
+    .containerText {
+      padding: 80px;
+    }
+  }
+  .arrowDown {
+    padding-top: 25px;
+  }
+  .footer {
+    margin: 20px;
+    .copyOlacy {
+      font-size: 12px;
+    }
+  }
+}
