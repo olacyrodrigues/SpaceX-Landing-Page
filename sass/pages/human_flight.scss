@@ -1,13 +1,9 @@
-* {
-  padding: 0px;
-  margin: 0px;
-}
-
 .container07 {
   background-image: url(../../assets/humanFlight/01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  min-width: none;
 }
 
 .titleHumanPage {
@@ -122,6 +118,10 @@
 }
 
 @media (max-width: 1440px) {
+  .earthDescription {
+    padding: 2% 22%;
+  }
+
   .titleHumanPage {
     font-size: 120px;
     padding-top: 190px;
@@ -142,6 +142,20 @@
   }
   .moonText {
     padding-left: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .earthText {
+    margin-left: 4%;
+  }
+  .moonTitleContainer {
+    margin-left: 55%;
+  }
+  .earthText {
+    #buttonHuman {
+      margin-left: 38%;
+    }
   }
 }
 
