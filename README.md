@@ -14,6 +14,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 [BootsTrap](https://icons.getbootstrap.com)
 
+[SASS](https://sass-lang.com)
+
 [AOS](https://michalsnik.github.io/aos/)
 
 ## 🎲 Rodando o projeto
@@ -22,7 +24,7 @@ Para visualizar o projeto basta acessar o link
 
 ```python
 $ Acesse o link < https://olacyrodrigues.github.io/SpaceX-Landing-Page/>
-
+```
 
 ## 🚀 Sobre mim
 
@@ -33,4 +35,4 @@ me procurar em alguma rede social.</p>
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/olacy-rodrigues-449a03170/)
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/olacyrodrigues/)
-```
+
