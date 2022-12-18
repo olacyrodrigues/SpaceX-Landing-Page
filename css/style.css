@@ -230,6 +230,21 @@ nav {
     padding: 180px 10px 0px 20px;
   }
 }
+@media (max-width: 1180px) {
+  .titleFalcon9 {
+    padding-top: 15%;
+    font-size: 80px;
+  }
+  .rocketContainer {
+    padding: 150px 500px 0px 20px;
+  }
+  .falcon9Container {
+    padding: 20px 600px 400px 120px;
+  }
+  .merlinContainer {
+    padding: 20px 600px 0px 20px;
+  }
+}
 * {
   padding: 0px;
   margin: 0px;
@@ -340,6 +355,11 @@ nav {
   color: #555252;
 }
 
+@media (max-width: 2560px) {
+  .arrowDownHumanPage {
+    margin: 1%;
+  }
+}
 @media (max-width: 1440px) {
   .titleHumanPage {
     font-size: 120px;
@@ -358,6 +378,24 @@ nav {
   }
   .moonText {
     padding-left: 50%;
+  }
+}
+@media (max-width: 1180px) {
+  .titleHumanPage {
+    font-size: 120px;
+    padding-top: 20px;
+  }
+  .arrowDownHumanPage {
+    margin: 4%;
+    width: 150px;
+    height: auto;
+  }
+  .earthDescription {
+    padding: 2% 22%;
+  }
+  .earthText {
+    padding-top: 10%;
+    padding-left: 49%;
   }
 }
 @media (max-width: 768px) {

@@ -115,6 +115,12 @@
   }
 }
 
+@media (max-width: 2560px) {
+  .arrowDownHumanPage {
+    margin: 1%;
+  }
+}
+
 @media (max-width: 1440px) {
   .titleHumanPage {
     font-size: 120px;
@@ -136,6 +142,26 @@
   }
   .moonText {
     padding-left: 50%;
+  }
+}
+
+@media (max-width: 1180px) {
+  .titleHumanPage {
+    font-size: 120px;
+    padding-top: 20px;
+  }
+
+  .arrowDownHumanPage {
+    margin: 4%;
+    width: 150px;
+    height: auto;
+  }
+  .earthDescription {
+    padding: 2% 22%;
+  }
+  .earthText {
+    padding-top: 10%;
+    padding-left: 49%;
   }
 }
 

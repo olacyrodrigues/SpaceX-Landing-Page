@@ -122,3 +122,21 @@
     padding: 180px 10px 0px 20px;
   }
 }
+
+@media (max-width: 1180px) {
+  .titleFalcon9 {
+    padding-top: 15%;
+    font-size: 80px;
+  }
+
+  .rocketContainer {
+    padding: 150px 500px 0px 20px;
+  }
+
+  .falcon9Container {
+    padding: 20px 600px 400px 120px;
+  }
+  .merlinContainer {
+    padding: 20px 600px 0px 20px;
+  }
+}
