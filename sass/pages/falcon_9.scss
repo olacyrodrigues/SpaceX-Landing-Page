@@ -127,25 +127,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  .merlinContainer {
-    min-width: 1100px;
-    height: auto;
-  }
-  .falcon9Container {
-    min-width: 1300px;
-    height: auto;
-  }
-  .falconDescriptiondata {
-    min-width: 1300px;
-    height: auto;
-  }
-  .rocketContainer {
-    min-width: 1100px;
-    height: auto;
-  }
-}
-
 @media (max-width: 1180px) {
   .titleFalcon9 {
     padding-top: 15%;
@@ -161,5 +142,80 @@
   }
   .merlinContainer {
     padding: 20px 600px 0px 20px;
+  }
+}
+@media (max-width: 768px) {
+  .container01,
+  .container06,
+  .container06-1 {
+    background-position: center;
+  }
+  .carrossel01,
+  .carrossel02,
+  .carrossel03,
+  .carrossel04,
+  .carrossel05 {
+    background-position: center;
+  }
+  .container11 {
+    background-position: center;
+  }
+  .rocketContainer,
+  .falcon9Container,
+  .merlinContainer {
+    padding: 200px 250px 0px 20px;
+  }
+  .downloadContainer {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container01,
+  .container06,
+  .container06-1 {
+    background-position: center;
+  }
+  .carrossel01,
+  .carrossel02,
+  .carrossel03,
+  .carrossel04,
+  .carrossel05 {
+    background-position: center;
+  }
+  .container11 {
+    background-position: center;
+  }
+  .titleFalcon9 {
+    margin-top: 150px;
+  }
+  .rocketContainer,
+  .falcon9Container,
+  .merlinContainer {
+    padding: 200px 30px 0px 20px;
+  }
+  .downloadContainer {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    margin-top: 150px;
+    font-size: 59px;
+  }
+  .subTitleFalcon {
+    font-size: 25px;
+  }
+  .rocketContainer {
+    padding: 150px 30px 0px 20px;
+  }
+  .falcon9Container,
+  .merlinContainer {
+    padding: 80px 30px 0px 20px;
+  }
+
+  .downloadContainer {
+    padding-top: 10px;
   }
 }

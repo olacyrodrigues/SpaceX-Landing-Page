@@ -145,20 +145,6 @@
   }
 }
 
-@media (max-width: 1024px) {
-  .earthText {
-    margin-left: 4%;
-  }
-  .moonTitleContainer {
-    margin-left: 55%;
-  }
-  .earthText {
-    #buttonHuman {
-      margin-left: 38%;
-    }
-  }
-}
-
 @media (max-width: 1180px) {
   .titleHumanPage {
     font-size: 120px;
@@ -179,7 +165,28 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .earthText {
+    margin-left: 4%;
+  }
+  .moonTitleContainer {
+    margin-left: 55%;
+  }
+  .earthText {
+    #buttonHuman {
+      margin-left: 38%;
+    }
+  }
+}
+
 @media (max-width: 768px) {
+  .container07,
+  .container08,
+  .container09,
+  .container10,
+  .container11 {
+    background-position: center;
+  }
   .titleHumanPage {
     font-size: 90px;
     padding-top: 190px;
@@ -196,5 +203,80 @@
   }
   .earthDescription {
     padding: 2% 8%;
+  }
+}
+
+@media (max-width: 425px) {
+  .container07 {
+    background-position: center;
+  }
+  .container08 {
+    background-position: center;
+  }
+  .container09 {
+    background-position: center;
+  }
+  .container10 {
+    background-position: center;
+  }
+  .container11 {
+    background-position: center;
+  }
+  .titleHumanPage {
+    font-size: 60px;
+  }
+  .arrowDownHumanPage {
+    padding-top: 30px;
+  }
+  .earthDescription {
+    padding-top: 30px;
+  }
+  .earthText {
+    padding: 130px 50px 0px 0px;
+    font-size: 20px;
+    #buttonHuman {
+      margin-left: 188px;
+    }
+  }
+  .downloadContainer {
+    button {
+      margin: 3px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .titleContent {
+    .titleHumanPage {
+      font-size: 55px;
+    }
+    .subTitleHumanPage {
+      font-size: 25px;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .titleContent {
+    .titleHumanPage {
+      font-size: 45px;
+    }
+    .subTitleHumanPage {
+      font-size: 15px;
+    }
+  }
+  .earthText {
+    padding: 130px 50px 0px 50px;
+    font-size: 20px;
+
+    #buttonHuman {
+      margin-left: 60px;
+    }
+  }
+  .moonText {
+    padding: 130px 50px 0px 110px;
+  }
+  .satelliteText {
+    margin-top: 80px;
+    padding-top: 155px;
   }
 }

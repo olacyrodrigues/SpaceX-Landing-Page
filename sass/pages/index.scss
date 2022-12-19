@@ -50,18 +50,61 @@
 
 @media (max-width: 425px) {
   .container00 {
+    background-position: center;
     .containerText {
       padding: 90px;
+      padding-top: 50%;
+      padding-bottom: 500px;
+    }
+    #lauchComing {
+      font-size: 16px;
+    }
+    .containerText {
+      .h1 {
+        font-size: 30px;
+      }
     }
     .arrowDown {
       margin: 50px;
     }
+  }
+  .container02 {
+    background-position: center;
+  }
+  .container03 {
+    background-position: center;
+  }
+  .container04 {
+    background-position: center;
+  }
+  .shortTitle {
+    font-size: 20px;
+  }
+  .footer {
+    padding-top: 120px;
   }
 }
 
 @media (max-width: 375px) {
   .logo-obc {
     width: 220px;
+  }
+  .container00 {
+    .containerText {
+      padding-top: 50%;
+      padding-bottom: 500px;
+    }
+    #lauchComing {
+      font-size: 26px;
+    }
+    .containerText {
+      .h1 {
+        font-size: 20px;
+      }
+    }
+    .arrowDown {
+      margin: 20px;
+    }
   }
 }
 
@@ -75,7 +118,7 @@
     }
   }
   .arrowDown {
-    padding-top: 25px;
+    padding-top: 2px;
   }
   .footer {
     margin: 20px;
