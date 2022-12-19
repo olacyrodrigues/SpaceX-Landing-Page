@@ -6,7 +6,8 @@
 
 ## Status
 
-> Status: Em andamento ⚠️
+Status: Conluido ✅
+ps:Falta refatorar o código, irei voltar futuramente para faze-lo.
 
 ## Tecnlogias
 
@@ -35,4 +36,3 @@ me procurar em alguma rede social.</p>
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/olacy-rodrigues-449a03170/)
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/olacyrodrigues/)
-
