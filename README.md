@@ -6,7 +6,7 @@
 
 ## Status
 
-Status: Conluido ✅
+Status: Finalizado ✅
 ps:Falta refatorar o código, irei voltar futuramente para faze-lo.
 
 ## Tecnlogias
