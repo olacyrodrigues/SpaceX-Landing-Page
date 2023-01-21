@@ -29,7 +29,7 @@ $ Acesse o link < https://olacyrodrigues.github.io/SpaceX-Landing-Page/>
 
 ## 🚀 Sobre mim
 
-<p>Sou um desenvolvedor iniciante em busca constante de conhecimento, sinta-se avontade para
+<p>Sou um desenvolvedor iniciante em busca constante de conhecimento, sinta-se à vontade para
 me procurar em alguma rede social.</p>
 <p> ps: não possuo direitos sobre as imagens, seus usos foram única e exclusivamente para fins de estudo. caso alguém queira a retirada basta entrar em contato.</p>
 
